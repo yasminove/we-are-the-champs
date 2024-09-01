@@ -13,7 +13,7 @@ const appSettings = {
 const app = initializeApp(appSettings);
 const database = getDatabase(app);
 
-const referenceInDB = ref(database, 'endorsements')
+const referenceInDB = ref(database, 'champs')
 
 const endorsementSection = document.getElementById('endorsements-section');
 
